@@ -8,3 +8,45 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+
+
+/* nav bar style start */
+.nav-bar{
+    margin: 3rem;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: rgba(16, 144, 216, 0.10);   
+}
+
+.nav-title{
+    color: rgba(17, 17, 17, 0.80);
+    font-family: Inter;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-sub-title{
+    font-size: 2rem;
+    font-weight: 600;
+    color:rgb(125, 122, 122)
+}
+
+nav button{
+    width: 7.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #1090D8;
+    border: none;
+}
+
+
+/* nav bar style ---------------------ends*/
+
+
