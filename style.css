@@ -151,7 +151,6 @@ margin-bottom: .63rem;
     border-radius: 0.5rem;
     border: 1px solid rgba(17, 17, 17, 0.10);
     background: #FFF;
-    text-align: center;
 }
 
 .area-title{
@@ -165,4 +164,29 @@ margin-bottom: .63rem;
     font-weight: 700;
     line-height: 1.875rem; /* 150% */
     text-decoration-line: underline;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+.area-calculation  li  {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: number;
+    margin-bottom: 1rem;
+}
+.area-calculation  li  button {
+    width: 7.5rem;
+    height: 2rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #1090D8;
+    border: none;
+    color:rgb(21, 20, 20);
+}
+
+.calculate-body {
+    display: flex;
+
 }

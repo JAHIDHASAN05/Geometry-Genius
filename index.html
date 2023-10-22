@@ -24,7 +24,7 @@
 
 
     <main>
-        <section class="geometry-container">
+        <section id="geometry-container" class="geometry-container">
             <div class="geometry-body">
                 <div class="geometry-card">
                     <img class="card-img" src="./images/triangle.png" alt="">
@@ -37,7 +37,7 @@
                         <p>cm</p>
 
                     </div>
-                    <button class="btn-calculate">calculate</button>
+                    <button class="btn-calculate">Calculate</button>
                 </div>
                 <div class="geometry-card">
                     <img class="card-img" src="./images/rectangle.png" alt="">
@@ -50,7 +50,7 @@
                         <p>cm</p>
 
                     </div>
-                    <button class="btn-calculate">calculate</button>
+                    <button class="btn-calculate">Calculate</button>
                 </div>
                 <div class="geometry-card">
                     <img class="card-img" src="./images/./parallelogram.png" alt="">
@@ -61,7 +61,7 @@
 
 
                     </div>
-                    <button class="btn-calculate">calculate</button>
+                    <button id="parallelogram-btn" class="btn-calculate">Calculate</button>
                 </div>
                 <div class="geometry-card">
                     <img class="card-img" src="./images/rhombus.png" alt="">
@@ -72,7 +72,7 @@
 
 
                     </div>
-                    <button class="btn-calculate">calculate</button>
+                    <button id="Rhombus-btn" class="btn-calculate">Calculate</button>
                 </div>
                 <div class="geometry-card">
                     <img class="card-img" src="./images/pentagon.png" alt="">
@@ -83,7 +83,7 @@
 
 
                     </div>
-                    <button class="btn-calculate">calculate</button>
+                    <button id="Pentagon-btn" class="btn-calculate">Calculate</button>
                 </div>
                 <div class="geometry-card">
                     <img class="card-img" src="./images/ellipse.png" alt="">
@@ -94,18 +94,33 @@
 
 
                     </div>
-                    <button class="btn-calculate">calculate</button>
+                    <button id="Ellipse-btn" class="btn-calculate">Calculate</button>
                 </div>
                 
             </div>
 
 
 
-            <div class="area-calculation-section">
+            <div id="area-section" class="area-calculation-section">
                 <h3 class="area-title">Area calculation</h3>
+
+                <div id="area-calculation" class="area-calculation" >
+                  <!-- <div id="calculate-body" class="calculate-body">
+                     <li style="display: block;">hasan</li>
+                     <p>125m</p>
+                     <button>Covert to m<sup>2</sup></button>
+                 </div> -->
+                     
+                     <!-- <li >
+                        <p style="list-style: number;">125</p> 
+                        <button>Covert to m<sup>2</sup></button>
+                    </li> -->
+                     
+                </div>
             </div>
         </section>
     </main>
-
+ <script src="./js/geo-calculation.js"></script>
+ <script src="./js/fixedValueCard.js"></script>
 </body>
 </html>
