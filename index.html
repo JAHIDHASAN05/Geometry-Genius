@@ -18,7 +18,7 @@
                 <h3 class="nav-title">Interactive </h3>
                 <p class="nav-sub-title">Geometry Genius</p>
             </div>
-            <button>blog</button>
+            <button id="blog-btn">blog</button>
         </nav>
     </header>
 
@@ -26,7 +26,7 @@
     <main>
         <section id="geometry-container" class="geometry-container">
             <div class="geometry-body">
-                <div class="geometry-card">
+                <div class="geometry-card triangle-card">
                     <img class="card-img" src="./images/triangle.png" alt="">
                     <h5 class="card-title">Triangle</h5>
                     <p class="card-fomula">Area (A) = 0.5 X b X h</p>
@@ -39,7 +39,7 @@
                     </div>
                     <button id="Triangle-btn" class="btn-calculate">Calculate</button>
                 </div>
-                <div class="geometry-card">
+                <div class="geometry-card rectangle-card">
                     <img class="card-img" src="./images/rectangle.png" alt="">
                     <h5 class="card-title">Rectangle</h5>
                     <p class="card-fomula">Area (A) = w x  I</p>
@@ -105,22 +105,15 @@
                 <h3 class="area-title">Area calculation</h3>
 
                 <div id="area-calculation" class="area-calculation" >
-                  <!-- <div id="calculate-body" class="calculate-body">
-                     <li style="display: block;">hasan</li>
-                     <p>125m</p>
-                     <button>Covert to m<sup>2</sup></button>
-                 </div> -->
-                     
-                     <!-- <li >
-                        <p style="list-style: number;">125</p> 
-                        <button>Covert to m<sup>2</sup></button>
-                    </li> -->
+                  
                      
                 </div>
             </div>
         </section>
     </main>
- <script src="./js/geo-calculation.js"></script>
+    <script src="js/blog-btn.js"></script>
+ <script src="./js/inputFieldCard.js"></script>
  <script src="./js/fixedValueCard.js"></script>
+ <script src="./js/card-dynamic-color-chang.js.js"></script>
 </body>
 </html>

@@ -191,3 +191,53 @@ margin-bottom: .63rem;
     display: flex;
 
 }
+
+
+
+
+/* mobile desing responsive */
+
+@media screen and (max-width:688px) {
+  
+
+ .nav-title{
+    font-size: 1.8rem;
+
+ }
+ .nav-sub-title{
+    font-size: 1rem;
+ }
+
+ nav button{
+    width: 5rem;
+    height: 2.3rem;
+ }
+.geometry-container{
+
+    flex-direction: column-reverse;
+}
+.geometry-body{
+    grid-template-columns: repeat(1,1fr);
+    place-items: center;
+}
+.area-calculation-section{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.area-calculation  li  button {
+    width: 4rem;
+    height: 2.3rem;
+    font-size: .5rem;
+    
+}
+
+.area-calculation  li{
+ font-size: .8rem;
+ 
+}
+}
