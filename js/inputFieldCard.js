@@ -1,31 +1,8 @@
 
 
-function calculateArea( name, value1, value2 ){
-    if(name=="Triagle"){
-        const Area= 0.5 *value1*value2 +" cm2";
-        return Area;
-    }
-    else if(name == "Rectangle"){
-        const Area= value1*value2 +" cm2";
-        return Area;
-    }
-    
-
-}
+                        // Triagle-------------------------------------function;
 
 
-function getInputFieldValueById(fieldId){
-    const inputField= document.getElementById(fieldId)
-    const inputFieldValueString=inputField.value ;
-    const inputFieldValue=parseFloat(inputFieldValueString)
-    if(inputFieldValueString.length==0 || inputFieldValueString==0){
-        return "emtyInput"
-    }
-    else{
-
-        return inputFieldValue;
-    }
-}
 
 
 
@@ -92,6 +69,9 @@ const TriangleCardButton=document.getElementById("Triangle-btn").addEventListene
 })
 
 
+
+
+                          //  Rectangle-------------------------------------function;
 
 
 

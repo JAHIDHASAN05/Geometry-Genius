@@ -1,23 +1,8 @@
 
+// <!-----------------------------  Parallelogram  function------------------------------------>
 
 
-function fixedAreaValue(fixedValueTitle){
 
-    if(fixedValueTitle=="Parallelogram")
-    return "120 cm2";
-
-    else if(fixedValueTitle=="Rhombus"){
-     return "64 cm2"
-    }
-    else if(fixedValueTitle=="Pentagon"){
-        return "30 cm2"
-    }
-    else if(fixedValueTitle=="Ellipse"){
-        return "125.6 cm2"
-    }
-}
-
-//  Parallelogram-------------------------------------function;
 
 
   const ParallelogramButton=document.getElementById("parallelogram-btn").addEventListener("click", function(){
@@ -35,7 +20,10 @@ function fixedAreaValue(fixedValueTitle){
 
 })
 
-//  Rhombus-------------------------------------function;
+ // <!-----------------------------  Rhombus  function------------------------------------>
+
+
+
 // 
   const RhombusButton=document.getElementById("Rhombus-btn").addEventListener("click", function(){
     
@@ -52,7 +40,10 @@ function fixedAreaValue(fixedValueTitle){
 
 })
 
-// Pentagon-------------------------------------function;
+   // <!----------------------------- Pentagon  function------------------------------------>
+
+
+
 
   const PentagonButton=document.getElementById("Pentagon-btn").addEventListener("click", function(){
     
@@ -69,7 +60,16 @@ function fixedAreaValue(fixedValueTitle){
 
 })
 
-//  Ellipse-------------------------------------function;
+
+
+// <!-----------------------------  Ellipse  function------------------------------------>
+
+
+
+
+
+
+
 
   const EllipseButton=document.getElementById("Ellipse-btn").addEventListener("click", function(){
     
