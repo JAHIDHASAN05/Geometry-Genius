@@ -170,8 +170,9 @@ margin-bottom: .63rem;
 }
 .area-calculation  li  {
     margin-left: 2rem;
+    margin-right: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: number;
     margin-bottom: 1rem;

@@ -1,7 +1,7 @@
 
 
 
-function parallelogramArea(fixedValueTitle){
+function fixedAreaValue(fixedValueTitle){
 
     if(fixedValueTitle=="Parallelogram")
     return "120 cm2";
@@ -26,7 +26,7 @@ function parallelogramArea(fixedValueTitle){
         const calculateNewElementCreate= document.createElement("li");
         calculateNewElementCreate.innerText="Parallelogram"       ; 
         const inside=document.createElement("p");        
-        inside.innerText=parallelogramArea("Parallelogram");
+        inside.innerText=fixedAreaValue("Parallelogram");
         calculateNewElementCreate.appendChild(inside);
         const insideElelment=document.createElement("button");
         insideElelment.innerText='Covert to  m2';
@@ -43,7 +43,7 @@ function parallelogramArea(fixedValueTitle){
         const calculateNewElementCreate= document.createElement("li");
         calculateNewElementCreate.innerText="Rhombus"; 
         const inside=document.createElement("p");        
-        inside.innerText=parallelogramArea("Rhombus");
+        inside.innerText=fixedAreaValue("Rhombus");
         calculateNewElementCreate.appendChild(inside);
         const insideElelment=document.createElement("button");
         insideElelment.innerText='Covert to  m2';
@@ -60,7 +60,7 @@ function parallelogramArea(fixedValueTitle){
         const calculateNewElementCreate= document.createElement("li");
         calculateNewElementCreate.innerText="Pentagon"; 
         const inside=document.createElement("p");        
-        inside.innerText=parallelogramArea("Pentagon");
+        inside.innerText=fixedAreaValue("Pentagon");
         calculateNewElementCreate.appendChild(inside);
         const insideElelment=document.createElement("button");
         insideElelment.innerText='Covert to  m2';
@@ -77,7 +77,7 @@ function parallelogramArea(fixedValueTitle){
         const calculateNewElementCreate= document.createElement("li");
         calculateNewElementCreate.innerText="Ellipse"; 
         const inside=document.createElement("p");        
-        inside.innerText=parallelogramArea("Ellipse");
+        inside.innerText=fixedAreaValue("Ellipse");
         calculateNewElementCreate.appendChild(inside);
         const insideElelment=document.createElement("button");
         insideElelment.innerText='Covert to  m2';
