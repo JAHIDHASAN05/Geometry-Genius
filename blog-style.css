@@ -1,0 +1,15 @@
+.section-title{
+ font-size: 4.5rem;
+ text-align: center;
+}
+
+.question{
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+.answer{
+    width: 50%;
+    font-size: 1rem;
+    color: rgb(102, 98, 98);
+}
